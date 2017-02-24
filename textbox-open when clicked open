@@ -1,16 +1,23 @@
+[checkbox checkbox-288 "Sourcing "]<br/>
+[checkbox checkbox-288 "Private Label Management"]<br/>
+[checkbox checkbox-288 "Inspection"]<br/>
+[checkbox checkbox-288 "Logistics Management"]<br/>
+[checkbox checkbox-288 "Custom Clearance"]<br/>
+[checkbox checkbox-288 class:music id:music "Other (please describe)"]
+<div id="musicinfo" style="display:none;">
+<label class="s">Other</label><br/>
+[text text-407]
+</div>
+
+
 <script type="text/javascript">
 	jQuery(document).ready(
     function($){
-$(".opal-footer .widget_wpopal_socials_widget ul li a").attr('target' ,'_blank');
-$(".site-header .pull-right ul.social li a").attr('target' ,'_blank');
+
     	//alert('okkk');
         $("#music").click(function () {
             $("#musicinfo").toggle();
         });
-        $("input[name='checkbox-269']").change(function(){
-		    
-		    $('input:checkbox').not(this).prop('checked', this.checked);
-		});
-
+       
     });
 </script>
