@@ -21,3 +21,24 @@
        
     });
 </script>
+------------------------------------------------------------------------------------------------------
+WE WILL ALSO DO THIS
+<script type="text/javascript">
+	jQuery(document).ready(
+    function($){
+$(".opal-footer .widget_wpopal_socials_widget ul li a").attr('target' ,'_blank');
+$(".site-header .pull-right ul.social li a").attr('target' ,'_blank');
+    	//alert('okkk');
+        $("#music").click(function () {
+            $("#musicinfo").toggle();
+        });
+        $("input[name='checkbox-269']").change(function(){
+		    
+		    $('input:checkbox').not(this).prop('checked', this.checked);
+		});
+
+    });
+</script>
+<style type="text/css">
+	span.wpcf7-list-item { display: block; }
+</style>
